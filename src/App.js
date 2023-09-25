@@ -1,19 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home } from "./components/Home";
-import {Navbar} from "./components/Navbar";
-import {Section} from "./components/Section"
-
+import './components/style.css'
+import { Navbar } from './components/Navbar';
+import { Home } from './components/Home';
+import { About } from './components/About';
+import ImageUpload from './compExtra/ImageUpload';
+import React, { useState, useEffect } from 'react';
+import { Gallery } from './components/Gallery';
 function App() {
 	return (
-		<Router>
-			<div className="App">
-				<Routes>
-					<Route path="/" element={<Section />} />
-				</Routes>
-			</div>
-		</Router>
+		<div className="App">
+			<Navbar />
+			<Home />
+			<About />
+			<section className="team" id="team" name="team">
+				Team
+				<ImageUpload />
+			</section>
+			<Gallery />
+		</div>
 	);
 }
 

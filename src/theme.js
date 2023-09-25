@@ -1,11 +1,10 @@
 import { createTheme } from "@mui/material";
-import Inter from "./fonts/Inter.ttf";
 
 export const theme = createTheme({
 	typography: {
-		fontFamily: "Inter, Arial",
+		fontFamily: "Poppins, sans-serif",
 		fontSize: 20,
-		color: "#020303",
+		color: "#090d10",
 	},
 	palette: {
 		primary: {
@@ -23,19 +22,8 @@ export const theme = createTheme({
 
 		background: {
 			white: "#ECF0F3",
-		},
-	},
-	components: {
-		transparentButton: {
-			styleOverrides: {
-				root: ({ ownerState }) => ({
-					...(ownerState.variant === "contained" &&
-						ownerState.color === "primary" && {
-							backgroundColor: "transparent",
-							color: "#2A3641",
-						}),
-				}),
-			},
+			black: "#131316",
+			main: "#f9fafb",
 		},
 	},
 });

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #131316;
+    color: #f8f0E5; */
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #1d1e1f;
+    color: #D8D9DA;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #F5EFE7; */
+    position: fixed;
+    top: 0;
+}
+.navbar-item .active {
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+
+
+.home {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    background-color: #272829;
+    color: #D8D9DA;
+    right: 0;
+    background:
+        linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url("../assets/home.png");
+        background-size: cover;
+}
+
+.about {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    background-color: #1d1e1f;
+    color: #D8D9DA;
+    min-height: 120vh;
+}
+
+.sponsors {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    background-color: #272829;
+    color: #D8D9DA;
+}
+
+.mission {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    background-color: #1d1e1f;
+    color: #D8D9DA;
+}
+
+.team {
+    font-family: 'Poppins', sans-serif;
+    background-color: #272829;
+    color: #D8D9DA;
+}
+
+.gallery {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: #1d1e1f;
+    color: #D8D9DA;
+}
