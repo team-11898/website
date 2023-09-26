@@ -35,6 +35,7 @@ export const Gallery = () => {
                 gap={10}
 			>
 				{galleryData.map((item) => (
+                <div>
 					<ImageListItem
 						key={item.img}
 						cols={item.cols || 1}
@@ -47,6 +48,7 @@ export const Gallery = () => {
 							loading="lazy"
 						/>
 					</ImageListItem>
+                </div>
 				))}
 			</ImageList>
 		</section>

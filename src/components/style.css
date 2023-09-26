@@ -19,7 +19,7 @@ section {
     color: #D8D9DA;
     font-family: 'Poppins', sans-serif;
     /* background-color: #F5EFE7; */
-    position: fixed;
+    position: absolute;
     top: 0;
 }
 .navbar-item .active {
@@ -38,7 +38,7 @@ section {
     background:
         linear-gradient(
           rgba(0, 0, 0, 0.7),
-          rgba(0, 0, 0, 0.7)
+          rgba(30, 31, 32, 1)
         ),
         url("../assets/home.png");
         background-size: cover;
@@ -47,34 +47,76 @@ section {
 .about {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    background-color: #1d1e1f;
+    background:
+        linear-gradient(
+            rgba(30, 31, 32, 1),
+            rgba(39, 40, 41, 1)
+            );
     color: #D8D9DA;
     min-height: 120vh;
 }
 
-.sponsors {
-    font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    background-color: #272829;
-    color: #D8D9DA;
-}
 
 .mission {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    background-color: #1d1e1f;
+    background:
+        linear-gradient(
+            rgba(39, 40, 41, 1),
+            rgba(30, 31, 32, 1)
+            );
     color: #D8D9DA;
 }
 
 .team {
     font-family: 'Poppins', sans-serif;
-    background-color: #272829;
+    background:
+        linear-gradient(
+            rgba(30, 31, 32, 1),
+            rgba(39, 40, 41, 1)
+            );
     color: #D8D9DA;
 }
 
 .gallery {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    background-color: #1d1e1f;
+    background:
+        linear-gradient(
+            rgba(39, 40, 41, 1),
+            rgba(30, 31, 32, 1)
+            );
     color: #D8D9DA;
+}
+
+.sponsors {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    background:
+        linear-gradient(
+            rgba(30, 31, 32, 1),
+            rgba(39, 40, 41, 1)
+            );
+    color: #D8D9DA;
+}
+
+.sponsors .title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    background:
+        linear-gradient(
+            rgba(39, 40, 41, 1),
+            rgba(30, 31, 32, 1)
+            );
+    color: #D8D9DA;
+}
+
+.contact .title {
+    font-size: 40px;
+    font-weight: bold;
 }

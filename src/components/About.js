@@ -40,48 +40,14 @@ export const About = () => {
                             <Box
                                 width={800}
                                 component="img"
-                                alt="Carbon Footprint"
+                                alt="ftc"
                                 src={require("../assets/ftc.png")}
                             />
                         </Grid>
                     </Stack>
 				</Grid>
 			</section>
-			<section className="sponsors" id="sponsors">
-				{/* <span style={{ whiteSpace: 'pre-line' }}>{mesg}</span> */}
-				<Grid container rowSpacing={2}>
-					<Grid
-						xs={4}
-						sx={{ textAlign: "center", marginTop: 15 }}
-					></Grid>
-					<Grid xs={4} sx={{ textAlign: "center", marginTop: 15 }}>
-						<Typography
-							fontSize={30}
-							fontWeight="bold"
-							sx={{ fontFamily: "Poppins, sans-serif" }}
-							marginBottom={5}
-						>
-							Sponsors
-						</Typography>
-						<Typography
-							fontSize={20}
-							fontWeight="500"
-							sx={{
-								flexGrow: 1,
-								fontFamily: "Poppins, sans-serif",
-							}}
-						>
-							None(please sponsor)
-						</Typography>
-					</Grid>
-					<Grid
-						xs={4}
-						sx={{ textAlign: "center", marginTop: 15 }}
-					></Grid>
-				</Grid>
-			</section>
 			<section className="mission">
-				{/* <span style={{ whiteSpace: 'pre-line' }}>{mesg}</span> */}
 				<Grid container rowSpacing={2}>
 					<Grid
 						xs={4}
