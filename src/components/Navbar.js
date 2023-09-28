@@ -34,6 +34,7 @@ export const Navbar = () => {
 				paddingBottom: 1,
 				width: "100%",
 				position: "fixed",
+                zIndex: 1100
 			}}
 			className="navbar"
 		>

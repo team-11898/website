@@ -1,4 +1,3 @@
-import './App.css';
 import './components/style.css'
 import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
@@ -12,33 +11,34 @@ import { Team } from './components/Team';
 
 function App() {
 	return (
-		<div className="App">
+		<div className="app">
 			<Navbar />
-            {/* <Fade triggerOnce="false"> */}
-            <Home />
-            <About />
-            <Team/>
-            {/* <section className="team" id="team" name="team">
+			<Home />
+			<About />
+			<Team />
+			{/* <section className="team" id="team" name="team">
                 Team
                 <ImageUpload />
             </section> */}
-            <Gallery />
-            <section className="sponsors" id="sponsors">
-                <div style={{margin: 50}}>
-                    <h1 className="title">Sponsors</h1>
-                    <p>None(please sponsor)</p>
-                </div>
-                <h1 className="title" style={{marginTop: 10,}}>
-                    Contact Us
-                </h1>
-                <a
-                    style={{color: "inherit" }}
-                    href="mailto:nmhsrobukets@gmail.com"
-                >
-                    nmhsrobukets@gmail.com
-                </a>
-            </section>
-            {/* </Fade> */}
+			<Gallery />
+			<section className="sponsors" id="sponsors">
+				<div style={{ margin: 50 }}>
+					<h1 className="title">Sponsors</h1>
+					<p>None(please sponsor)</p>
+				</div>
+				<h1 className="title" style={{ marginTop: 10 }}>
+					Contact Us
+				</h1>
+				<a
+					style={{ color: "inherit" }}
+					href="mailto:nmhsrobukets@gmail.com"
+				>
+					nmhsrobukets@gmail.com
+				</a>
+			</section>
+			<footer class='solid'>
+				©2023 NMHS Robotics
+			</footer>
 		</div>
 	);
 }
