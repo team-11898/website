@@ -1,5 +1,6 @@
 import { Typography, Button, Box, Container, Grid, Item, ImageList, ImageListItem} from "@mui/material";
 import React from "react";
+import { Zoom } from "react-awesome-reveal";
 
 const galleryData = [
     {
@@ -19,38 +20,33 @@ const galleryData = [
 export const Gallery = () => {
 	return (
 		<section className="gallery" id="gallery">
-			<Typography
-				fontSize={30}
-				fontWeight="bold"
-				sx={{ fontFamily: "Poppins, sans-serif" }}
-				marginBottom={5}
-			>
-				Gallery
-			</Typography>
-			<ImageList
-				sx={{ width: 1500, height: 500 }}
-				variant="quilted"
-				cols={4}
-				rowHeight={250}
-                gap={10}
-			>
-				{galleryData.map((item) => (
-                <div>
-					<ImageListItem
-						key={item.img}
-						cols={item.cols || 1}
-						rows={item.rows || 1}
-					>
-						<img
-							srcSet={`${item.img}?w=164&h=164&fit=cover&auto=format&dpr=2 2x`}
-							src={`${item.img}?w=164&h=164&fit=cover&auto=format`}
-							alt={item.title}
-							loading="lazy"
-						/>
-					</ImageListItem>
-                </div>
-				))}
-			</ImageList>
+			<Zoom triggerOnce="true">
+				<h1 className="title">Gallery</h1>
+				<ImageList
+					sx={{ width: 1500, height: 500, marginTop: 10 }}
+					variant="quilted"
+					cols={4}
+					rowHeight={250}
+					gap={10}
+				>
+					{galleryData.map((item) => (
+						<div>
+							<ImageListItem
+								key={item.img}
+								cols={item.cols || 1}
+								rows={item.rows || 1}
+							>
+								<img
+									srcSet={`${item.img}?w=164&h=164&fit=cover&auto=format&dpr=2 2x`}
+									src={`${item.img}?w=164&h=164&fit=cover&auto=format`}
+									alt={item.title}
+									loading="lazy"
+								/>
+							</ImageListItem>
+						</div>
+					))}
+				</ImageList>
+			</Zoom>
 		</section>
 	);
 };
