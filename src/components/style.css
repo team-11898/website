@@ -10,7 +10,7 @@ section {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 120vh;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -31,14 +31,14 @@ section {
 
 .home {
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 100px;
     background-color: #272829;
     color: #D8D9DA;
     right: 0;
     background:
         linear-gradient(
           rgba(0, 0, 0, 0.7),
-          rgba(30, 31, 32, 1)
+        rgba(166, 220, 235, 1)
         ),
         url("../assets/home.png");
         background-size: cover;
@@ -47,57 +47,57 @@ section {
 .about {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    background:
+    /* background:
         linear-gradient(
-            rgba(30, 31, 32, 1),
-            rgba(39, 40, 41, 1)
-            );
-    color: #D8D9DA;
-    min-height: 120vh;
+            #a6dceb,
+            #fde36c
+            ); */
+    color: #1c2228;
 }
 
 
 .mission {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
-    background:
+    /* background:
         linear-gradient(
-            rgba(39, 40, 41, 1),
-            rgba(30, 31, 32, 1)
-            );
-    color: #D8D9DA;
+            #fde36c,
+            #a6dceb
+            ); */
+    color: #1c2228;
 }
 
 .team {
     font-family: 'Poppins', sans-serif;
-    background:
-        linear-gradient(
-            rgba(30, 31, 32, 1),
-            rgba(39, 40, 41, 1)
-            );
-    color: #D8D9DA;
+    /* background: */
+        /* linear-gradient(
+            #a6dceb,
+            #fde36c
+            ); */
+    color: #1c2228;
+    min-height: 120vh;
 }
 
 .gallery {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    background:
+    /* background:
         linear-gradient(
-            rgba(39, 40, 41, 1),
-            rgba(30, 31, 32, 1)
-            );
-    color: #D8D9DA;
+            #fde36c,
+            #a6dceb
+            ); */
+    color: #1c2228;
 }
 
 .sponsors {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    background:
+    /* background:
         linear-gradient(
-            rgba(30, 31, 32, 1),
-            rgba(39, 40, 41, 1)
-            );
-    color: #D8D9DA;
+            #a6dceb,
+            #fde36c
+            ); */
+    color: #1c2228;
 }
 
 .sponsors .title {
@@ -108,12 +108,12 @@ section {
 .contact {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    background:
+    /* background:
         linear-gradient(
-            rgba(39, 40, 41, 1),
-            rgba(30, 31, 32, 1)
-            );
-    color: #D8D9DA;
+            #a6dceb,
+            #fde36c,
+            ); */
+    color: #1c2228;
 }
 
 .contact .title {

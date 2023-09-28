@@ -14,7 +14,7 @@ export const Home = () => {
             >
                 <Typography
                     fontFamily={"Poppins"}
-                    fontSize={50}
+                    fontSize={80}
                     fontWeight="550"
                     sx={{
                         flexGrow: 1,
@@ -22,7 +22,7 @@ export const Home = () => {
                 >
                     Team 11898: The Robuckets
                 </Typography>
-                <Typography fontFamily={"Poppins"}>NMHS Robotics</Typography>
+                <Typography fontFamily={"Poppins"} fontSize={60}>NMHS Robotics</Typography>
             </Stack>
 		</section>
   );

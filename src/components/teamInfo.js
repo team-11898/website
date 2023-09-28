@@ -15,31 +15,35 @@ const teamInfo = [
 		img: require("../assets/cad1.png"),
 	},
 	{
-		name: "cad1",
-		grade: "",
-		department: "",
-		description: "",
+		name: "Hoyoon Woo",
+		grade: "Sophomore",
+		department: "Hardware",
+		description:
+			"Hello, my name is Hoyoon Woo and I like to study and play video-games with my friends in my free time. I joined the robotics club to learn more about the process of engineering.",
 		img: require("../assets/cad1.png"),
 	},
 	{
-		name: "cad1",
-		grade: "",
-		department: "",
-		description: "",
+		name: "Cody Lung",
+		grade: "Sophomore",
+		department: "Software",
+		description:
+			"My name is Cody Lung. I have some experience in programming. James Hoang is #1. I like pp",
 		img: require("../assets/cad1.png"),
 	},
 	{
-		name: "cad1",
-		grade: "",
-		department: "",
-		description: "",
+		name: "Akshay Palanivelu",
+		grade: "Sophomore",
+		department: "Hardware",
+		description:
+			"I am Akshay, a sophomore and I have always been interested in robotics. I used to build with legos and even did a robotics club in elementary school. I don't have that much experience in machinery but I think this club will teach me a lot about mechanics and movement.",
 		img: require("../assets/cad1.png"),
 	},
 	{
-		name: "cad1",
-		grade: "",
-		department: "",
-		description: "",
+		name: "Nilay Jhaveri ",
+		grade: "Sophomore",
+		department: "Hardware",
+		description:
+			"Hi im Nilay Jhaveri and I'm a sophomore at Newark Memorial High School. I joined the robotics team in order to further my knowledge and experience with robotics. I want to pursue mechanical engineering in college and I believe robtics will help me with this goal.",
 		img: require("../assets/cad1.png"),
 	},
 	{

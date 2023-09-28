@@ -4,3 +4,4 @@ yarn add react-helmet
 yarn add react-scroll
 yarn add react-bootstrap bootstrap
 yarn add react-scripts
+yarn add react-awesome-reveal

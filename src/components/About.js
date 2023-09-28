@@ -5,7 +5,6 @@ export const About = () => {
     return (
 		<div>
 			<section className="about" id="about">
-				{/* <span style={{ whiteSpace: 'pre-line' }}>{mesg}</span> */}
 				<Grid container rowSpacing={4}>
                     <Stack direction="row">
                         <Grid
@@ -47,7 +46,7 @@ export const About = () => {
                     </Stack>
 				</Grid>
 			</section>
-			<section className="mission">
+			<section className="mission" id="mission">
 				<Grid container rowSpacing={2}>
 					<Grid
 						xs={4}
