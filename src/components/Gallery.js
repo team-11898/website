@@ -20,7 +20,7 @@ const galleryData = [
 export const Gallery = () => {
 	return (
 		<section className="gallery" id="gallery">
-			<Zoom triggerOnce="true">
+			<Zoom triggerOnce="true" delay={3}>
 				<h1 className="title">Gallery</h1>
 				<ImageList
 					sx={{ width: 1500, height: 500, marginTop: 10 }}

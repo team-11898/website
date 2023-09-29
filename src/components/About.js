@@ -5,7 +5,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 export const About = () => {
     return (
 		<div>
-			<Slide cascade triggerOnce="true">
+			<Slide cascade triggerOnce="true" delay={4}>
 				<section className="about" id="about">
 					<Grid container rowSpacing={4}>
 						<Stack direction="row">
@@ -49,7 +49,7 @@ export const About = () => {
 					</Grid>
 				</section>
 			</Slide>
-			<Fade triggerOnce="true">
+			<Fade triggerOnce="true" delay={3}>
 				<section className="mission" id="mission">
 					<Grid container rowSpacing={2}>
 						<Grid xs={4} sx={{ textAlign: "center" }}></Grid>
