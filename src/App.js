@@ -16,10 +16,6 @@ function App() {
 			<Home />
 			<About />
 			<Team />
-			{/* <section className="team" id="team" name="team">
-                Team
-                <ImageUpload />
-            </section> */}
 			<Gallery />
 			<section className="sponsors" id="sponsors">
 				<div style={{ margin: 50 }}>
