@@ -3,7 +3,8 @@ const teamInfo = [
 		name: "Aden Lung",
 		grade: "Senior",
 		department: "Software",
-		description: "I'm an aspiring programmer that wants to learn how to code robots",
+		description:
+			"I'm an aspiring programmer that wants to learn how to code robots",
 		img: require("../assets/cad1.png"),
 	},
 	{
@@ -55,11 +56,12 @@ const teamInfo = [
 		img: require("../assets/team/Cody Nguyen.jpg"),
 	},
 	{
-		name: "cad1",
-		grade: "",
-		department: "",
-		description: "",
-		img: require("../assets/cad1.png"),
+		name: "Sean Tan",
+		grade: "Senior",
+		department: "Business",
+		description:
+			"Hey, my name is Sean Tan. I am currently a senior at Newark Memorial  I've been on the robotics team for the last three years and I've been on the FTC team for the last two years. I'm looking forward to this season of FTC!",
+		img: require("../assets/team/Sean Tan.jpg"),
 	},
 	{
 		name: "cad1",
