@@ -64,11 +64,11 @@ const teamInfo = [
 		img: require("../assets/team/Sean Tan.jpg"),
 	},
 	{
-		name: "cad1",
-		grade: "",
-		department: "",
-		description: "",
-		img: require("../assets/cad1.png"),
+		name: "Ahmed Hirzallah",
+		grade: "Sophomore",
+		department: "Hardware",
+		description: "Hi my name is Ahmed and I am a sophomore who likes to build robots, so I felt like robotics was a good fit for me.",
+		img: require("../assets/team/Ahmed Hirzallah.jpg"),
 	},
 	{
 		name: "cad1",
