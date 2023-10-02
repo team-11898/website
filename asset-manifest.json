@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.e5122a8a.css",
-    "main.js": "/website/static/js/main.e8df7310.js",
+    "main.css": "/website/static/css/main.6035791a.css",
+    "main.js": "/website/static/js/main.794bc9cf.js",
     "static/js/787.60023b45.chunk.js": "/website/static/js/787.60023b45.chunk.js",
     "static/media/ftc.png": "/website/static/media/ftc.34fc70dbc85748ba5c9e.png",
     "static/media/IMG_1588.png": "/website/static/media/IMG_1588.41f4a7d95b40fc1327c4.png",
@@ -10,6 +10,7 @@
     "static/media/Cody Nguyen.jpg": "/website/static/media/Cody Nguyen.f92d92e63bdcd9ae0608.jpg",
     "static/media/Nilay Jhaveri.jpg": "/website/static/media/Nilay Jhaveri.48175a540faac0e1c5d9.jpg",
     "static/media/Cody Lung.png": "/website/static/media/Cody Lung.dd2f67881ddc246c9708.png",
+    "static/media/Ahmed Hirzallah.jpg": "/website/static/media/Ahmed Hirzallah.00067f11d38252518e02.jpg",
     "static/media/image1.jpg": "/website/static/media/image1.70bba1a24f5e03e89016.jpg",
     "static/media/image2.jpg": "/website/static/media/image2.6bc8b7f9ea26106f04da.jpg",
     "static/media/Hoyoon Woo.jpeg": "/website/static/media/Hoyoon Woo.550bd8869d5b9df93be9.jpeg",
@@ -17,12 +18,12 @@
     "static/media/Akshay Palanivelu.jpg": "/website/static/media/Akshay Palanivelu.64b6b909358ce065455a.jpg",
     "static/media/cad1.png": "/website/static/media/cad1.c23011b17f13bf275548.png",
     "index.html": "/website/index.html",
-    "main.e5122a8a.css.map": "/website/static/css/main.e5122a8a.css.map",
-    "main.e8df7310.js.map": "/website/static/js/main.e8df7310.js.map",
+    "main.6035791a.css.map": "/website/static/css/main.6035791a.css.map",
+    "main.794bc9cf.js.map": "/website/static/js/main.794bc9cf.js.map",
     "787.60023b45.chunk.js.map": "/website/static/js/787.60023b45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5122a8a.css",
-    "static/js/main.e8df7310.js"
+    "static/css/main.6035791a.css",
+    "static/js/main.794bc9cf.js"
   ]
 }
