@@ -5,4 +5,4 @@ yarn add react-scroll
 yarn add react-bootstrap bootstrap
 yarn add react-scripts
 yarn add react-awesome-reveal
-yarn add gh-pages --save
+yarn add gh-pages

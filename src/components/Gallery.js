@@ -4,14 +4,6 @@ import { Zoom } from "react-awesome-reveal";
 
 const galleryData = [
     {
-        img: require("../assets/cad1.png"),
-        title: "cad1",
-    },
-    {
-        img: require("../assets/cad2.png"),
-        title: "cad1",
-    },
-    {
         img: require("../assets/IMG_1588.png"),
         title: "robot",
     },

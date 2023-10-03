@@ -33,8 +33,17 @@ export const About = () => {
 										fontFamily: "Poppins, sans-serif",
 									}}
 								>
-									We are a devout religious group aiming to
-									appease our lord and savior Siddhant Patel
+									WWe are Newark Memorial High School's
+									Robotics Club! Now entering our second year
+									recovering from COVID, we are more excited
+									than ever to live up to our program's
+									mission: de-stigmatizing STEM fields in our
+									community and shaping tomorrow's engineers.
+									We currently only consist of 1 FTC team, The
+									Robuckets (11898), but hope to expand in the
+									future. Last season, we appeared at the
+									NorCal Regionals, and are driving to go even
+									beyond that this year!
 								</Typography>
 							</Grid>
 							<Grid xs={6} sx={{ textAlign: "center" }}>
@@ -52,15 +61,15 @@ export const About = () => {
 			<Fade triggerOnce="true" delay={3}>
 				<section className="mission" id="mission">
 					<Grid container rowSpacing={2}>
-						<Grid xs={4} sx={{ textAlign: "center" }}></Grid>
-						<Grid xs={4} sx={{ textAlign: "center" }}>
+						<Grid xs={3} sx={{ textAlign: "center" }}></Grid>
+						<Grid xs={6} sx={{ textAlign: "center" }}>
 							<Typography
 								fontSize={60}
 								fontWeight="bold"
 								sx={{ fontFamily: "Poppins, sans-serif" }}
 								marginBottom={5}
 							>
-								Mission Statement
+								About First
 							</Typography>
 							<Typography
 								fontSize={20}
@@ -70,21 +79,25 @@ export const About = () => {
 									fontFamily: "Poppins, sans-serif",
 								}}
 							>
-								The robotics club is one of our school's STEM
-								club and aims to offer students skills,
-								confidence, and experience in the ever growing
-								field of STEM. Our clubs main focus at the
-								moment is participating in the FIRST Tech
-								Challenge, a competition where students design,
-								build, program, and operate robots to compete in
-								a head-to-head challenge. However, we have plans
-								to start hosting workshops that will teach
-								students the basics of CAD, programming, and
-								robotics parts.
+								FIRST is a robotics program founded by Dean
+								Kamen, the inventor of the segway. The mission
+								of FIRST is to inspire young people to take
+								interest in fields relating to Science,
+								Technology, Engineering, and Mathematics (STEM),
+								with a focus on robotics. FIRST is designed
+								specifically with students in mind, in order to
+								teach the newest generations about problem
+								solving and communication. <br />
+								<br />
+								FIRST Tech Challenge is about completing a very
+								challenging project with limits on your budget
+								and a firm deadline. It's about working and
+								cooperating as a team, with support from
+								knowledgeable mentors and peers.
 							</Typography>
 						</Grid>
 						<Grid
-							xs={4}
+							xs={3}
 							sx={{ textAlign: "center", marginTop: 15 }}
 						></Grid>
 					</Grid>
