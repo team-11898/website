@@ -5,7 +5,7 @@ const teamInfo = [
 		department: "Software",
 		description:
 			"I'm an aspiring programmer that wants to learn how to code robots",
-		img: require("../assets/cad1.png"),
+		img: require("../assets/team/Aden Lung.jpg"),
 	},
 	{
 		name: "Aryan Mehrotra",
@@ -13,7 +13,7 @@ const teamInfo = [
 		department: "Software",
 		description:
 			"I’m Indian and I joined robotics because I wanna learn more about robots and how the code is worked and how each thing inside of the robot work together",
-		img: require("../assets/cad1.png"),
+		img: require("../assets/team/Aryan Mehrotra.png"),
 	},
 	{
 		name: "Hoyoon Woo",
