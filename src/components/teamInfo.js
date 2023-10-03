@@ -67,15 +67,17 @@ const teamInfo = [
 		name: "Ahmed Hirzallah",
 		grade: "Sophomore",
 		department: "Hardware",
-		description: "Hi my name is Ahmed and I am a sophomore who likes to build robots, so I felt like robotics was a good fit for me.",
+		description:
+			"Hi my name is Ahmed and I am a sophomore who likes to build robots, so I felt like robotics was a good fit for me.",
 		img: require("../assets/team/Ahmed Hirzallah.jpg"),
 	},
 	{
-		name: "cad1",
-		grade: "",
-		department: "",
-		description: "",
-		img: require("../assets/cad1.png"),
+		name: "James Hoang",
+		grade: "Sophomore",
+		department: "Software",
+		description:
+			"Hello! I'm James Hoang, a passionate computer software engineer with a deep love for coding and problem-solving. I am Vietnamese and am hoping to get some experience from FTC.",
+		img: require("../assets/team/James Hoang.jpeg"),
 	},
 	{
 		name: "cad1",
