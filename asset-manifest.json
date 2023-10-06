@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/website/static/css/main.6035791a.css",
-    "main.js": "/website/static/js/main.0c99d63c.js",
+    "main.js": "/website/static/js/main.05bf51ae.js",
     "static/js/787.60023b45.chunk.js": "/website/static/js/787.60023b45.chunk.js",
     "static/media/ftc.png": "/website/static/media/ftc.34fc70dbc85748ba5c9e.png",
     "static/media/IMG_1588.png": "/website/static/media/IMG_1588.41f4a7d95b40fc1327c4.png",
     "static/media/Sean Tan.jpg": "/website/static/media/Sean Tan.14cef2ea66588efb0c0f.jpg",
     "static/media/home.png": "/website/static/media/home.965f878661065959cc44.png",
+    "static/media/Aden Lung.png": "/website/static/media/Aden Lung.4bd2dbf98be5cf6ac511.png",
     "static/media/Cody Nguyen.jpg": "/website/static/media/Cody Nguyen.f92d92e63bdcd9ae0608.jpg",
     "static/media/Nilay Jhaveri.jpg": "/website/static/media/Nilay Jhaveri.48175a540faac0e1c5d9.jpg",
     "static/media/Cody Lung.png": "/website/static/media/Cody Lung.dd2f67881ddc246c9708.png",
@@ -15,15 +16,15 @@
     "static/media/image2.jpg": "/website/static/media/image2.6bc8b7f9ea26106f04da.jpg",
     "static/media/Hoyoon Woo.jpeg": "/website/static/media/Hoyoon Woo.550bd8869d5b9df93be9.jpeg",
     "static/media/Akshay Palanivelu.jpg": "/website/static/media/Akshay Palanivelu.64b6b909358ce065455a.jpg",
-    "static/media/Aden Lung.jpg": "/website/static/media/Aden Lung.36633bda347e8a13d095.jpg",
+    "static/media/Isaiah Wu.jpg": "/website/static/media/Isaiah Wu.8e024f5a81396762820b.jpg",
     "static/media/James Hoang.jpeg": "/website/static/media/James Hoang.36915f66c90af1567660.jpeg",
     "index.html": "/website/index.html",
     "main.6035791a.css.map": "/website/static/css/main.6035791a.css.map",
-    "main.0c99d63c.js.map": "/website/static/js/main.0c99d63c.js.map",
+    "main.05bf51ae.js.map": "/website/static/js/main.05bf51ae.js.map",
     "787.60023b45.chunk.js.map": "/website/static/js/787.60023b45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6035791a.css",
-    "static/js/main.0c99d63c.js"
+    "static/js/main.05bf51ae.js"
   ]
 }
