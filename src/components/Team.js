@@ -10,10 +10,12 @@ export const Team = () => {
 				<h1 className="title">Team</h1>
 				<Box sx={{ flexGrow: 1, marginTop: 10, marginBottom: 10 }}>
 					<Grid container spacing={{ xs: 2 }} columns={{ xs: 3 }}>
-						{teamInfo.map((_, index) => (
+						{teamInfo
+							.filter((i) => i.department == "Business")
+							.map((_, index) => (
 								<Grid item xs={1} key={index}>
 									<Paper
-                                        className="paper"
+										className="paper"
 										sx={{
 											height: 400,
 											maxWidth: 300,
@@ -48,11 +50,12 @@ export const Team = () => {
 									</Paper>
 								</Grid>
 							))}
-						{/* {teamInfo
+						{teamInfo
 							.filter((i) => i.department == "Hardware")
 							.map((_, index) => (
 								<Grid item xs={1} key={index}>
 									<Paper
+										className="paper"
 										sx={{
 											height: 400,
 											maxWidth: 300,
@@ -66,8 +69,8 @@ export const Team = () => {
 											<IconButton size="large">
 												<Avatar
 													sx={{
-														width: 100,
-														height: 100,
+														width: 150,
+														height: 150,
 													}}
 													src={_.img}
 												/>
@@ -87,9 +90,12 @@ export const Team = () => {
 									</Paper>
 								</Grid>
 							))}
-						{teamInfo.map((_, index) => (
+						{teamInfo
+							.filter((i) => i.department == "Software")
+							.map((_, index) => (
 								<Grid item xs={1} key={index}>
 									<Paper
+										className="paper"
 										sx={{
 											height: 400,
 											maxWidth: 300,
@@ -103,8 +109,8 @@ export const Team = () => {
 											<IconButton size="large">
 												<Avatar
 													sx={{
-														width: 100,
-														height: 100,
+														width: 150,
+														height: 150,
 													}}
 													src={_.img}
 												/>
@@ -123,7 +129,7 @@ export const Team = () => {
 										</Grid>
 									</Paper>
 								</Grid>
-							))} */}
+							))}
 					</Grid>
 				</Box>
 			</Zoom>

@@ -1,19 +1,19 @@
 const teamInfo = [
 	{
-		name: "Aden Lung",
-		grade: "Senior",
-		department: "Software",
-		description:
-			"I'm an aspiring programmer that wants to learn how to code robots",
-		img: require("../assets/team/Aden Lung.jpg"),
-	},
-	{
 		name: "Aryan Mehrotra",
 		grade: "Junior",
 		department: "Software",
 		description:
 			"I’m Indian and I joined robotics because I wanna learn more about robots and how the code is worked and how each thing inside of the robot work together",
 		img: require("../assets/team/Aryan Mehrotra.png"),
+	},
+	{
+		name: "Aden Lung",
+		grade: "Senior",
+		department: "Software",
+		description:
+			"I'm an aspiring programmer that wants to learn how to code robots",
+		img: require("../assets/team/Aden Lung.png"),
 	},
 	{
 		name: "Hoyoon Woo",
@@ -79,13 +79,14 @@ const teamInfo = [
 			"Hello! I'm James Hoang, a passionate computer software engineer with a deep love for coding and problem-solving. I am Vietnamese and am hoping to get some experience from FTC.",
 		img: require("../assets/team/James Hoang.jpeg"),
 	},
-	// {
-	// 	name: "cad1",
-	// 	grade: "",
-	// 	department: "",
-	// 	description: "",
-	// 	img: require("../assets/cad1.png"),
-	// },
+	{
+		name: "Isaiah Wu",
+		grade: "Sophomore",
+		department: "Business",
+		description:
+			"Hi I'm Isaiah, I am a Sophomore in Newark Memorial. Robotics interested me mostly due to the business aspect where I can practice my public speaking and giving ideas. Thanks!",
+		img: require("../assets/team/Isaiah Wu.jpg"),
+	},
 	// {
 	// 	name: "cad1",
 	// 	grade: "",

@@ -33,16 +33,16 @@ export const About = () => {
 										fontFamily: "Poppins, sans-serif",
 									}}
 								>
-									WWe are Newark Memorial High School's
+									We are Newark Memorial High School's
 									Robotics Club! Now entering our second year
 									recovering from COVID, we are more excited
 									than ever to live up to our program's
 									mission: de-stigmatizing STEM fields in our
 									community and shaping tomorrow's engineers.
-									We currently only consist of 1 FTC team, The
+									We currently only consist of 1 FTC team, the
 									Robuckets (11898), but hope to expand in the
 									future. Last season, we appeared at the
-									NorCal Regionals, and are driving to go even
+									NorCal Regionals, and are striving to go even
 									beyond that this year!
 								</Typography>
 							</Grid>
