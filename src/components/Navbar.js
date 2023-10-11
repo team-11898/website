@@ -34,7 +34,7 @@ export const Navbar = () => {
 				paddingBottom: 1,
 				width: "100%",
 				position: "fixed",
-                zIndex: 1100
+				zIndex: 1100,
 			}}
 			className="navbar"
 		>
@@ -169,7 +169,7 @@ export const Navbar = () => {
 			>
 				<a
 					style={{ textDecoration: "none", color: "inherit" }}
-					href="https://www.youtube.com"
+					href="https://gofund.me/bc47313b"
 				>
 					Donate
 				</a>
